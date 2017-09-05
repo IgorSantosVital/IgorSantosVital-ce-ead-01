@@ -38,11 +38,11 @@
         $IMC3              = (54/$potencia3);
         $IMC4              = (85/$potencia4);
         $IMC5              = (46/$potencia5);
-        $IMCFormatada1     = number_format($IMC1, 0, ',', '.');
-        $IMCFormatada2     = number_format($IMC2, 0, ',', '.');
-        $IMCFormatada3     = number_format($IMC3, 0, ',', '.');
-        $IMCFormatada4     = number_format($IMC4, 0, ',', '.');
-        $IMCFormatada5     = number_format($IMC5, 0, ',', '.');
+        $IMCFormatada1     = number_format($IMC1, 2, ',', '.');
+        $IMCFormatada2     = number_format($IMC2, 2, ',', '.');
+        $IMCFormatada3     = number_format($IMC3, 2, ',', '.');
+        $IMCFormatada4     = number_format($IMC4, 2, ',', '.');
+        $IMCFormatada5     = number_format($IMC5, 2, ',', '.');
         
     ?>
     
@@ -84,7 +84,7 @@
           </td>
           <td>28/02/1987</td>
           <td> 
-          <?php echo $idadeData1->y . " anos."; ?> 
+          <?php echo $idadeData1->y . " anos "; ?> 
           </td>
          </tr>
          
@@ -97,7 +97,7 @@
           </td>
           <td>28/02/1987</td>
           <td>
-          <?php echo $idadeData2->y . " anos."; ?> 
+          <?php echo $idadeData2->y . " anos "; ?> 
           </td>
          </tr>
         
@@ -110,7 +110,7 @@
           </td>
           <td>28/02/1987</td>
           <td> 
-          <?php echo $idadeData3->y . " anos."; ?> 
+          <?php echo $idadeData3->y . " anos "; ?> 
           </td>
          </tr>
          
@@ -123,7 +123,7 @@
           </td>
           <td>28/02/1987</td>
           <td> 
-          <?php echo $idadeData4->y . " anos."; ?> 
+          <?php echo $idadeData4->y . " anos "; ?> 
           </td>
          </tr>
          
@@ -136,7 +136,7 @@
           </td>
           <td>28/02/1987</td>
           <td> 
-          <?php echo $idadeData5->y . " anos."; ?>
+          <?php echo $idadeData5->y . " anos "; ?>
           </td>
          </tr>
     </table>
